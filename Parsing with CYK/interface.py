@@ -8,7 +8,7 @@ from cyk.parse import parse
 
 def run():
     st.set_page_config(layout='wide')
-    rules = open_file('cnf.txt')
+    rules = open_file('CNF-5C.txt')
     cnf = conversion(rules)
     st.title('Apakah kalimat ini baku atau tidak?')
     
